@@ -6,12 +6,11 @@
 
 <script>
 
-import store from '../vuex/store.js'
 
 export default {
 	computed: {
 	    counter () {
-	      return store.state.counter
+	      return this.$store.state.counter
 	    }
 	  }
 }

@@ -22,8 +22,8 @@ export default {
     },
 
     components: {
-      display : Display,
-      increment : Increment
+      'display' : Display,
+      'increment' : Increment
     }
 }
 
